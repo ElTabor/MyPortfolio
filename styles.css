@@ -8,8 +8,15 @@
     --secondary-color: #333;
     --title-color: white;
     --text-color: black;
+    --header-height: 80px;
+    --footer-height: 50px;
 }
 
+html {
+    scroll-padding-top: var(--header-height);
+    scroll-padding-bottom: var(--footer-height);
+    scroll-behavior: smooth;
+}
 
 body{
     width: 100vw;

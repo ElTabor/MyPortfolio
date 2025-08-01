@@ -25,5 +25,5 @@ Sections:
 
 TO-FIX:
 
-- Navigation
 - Sticky header
+- Navigation/Scroll ¿memory?
