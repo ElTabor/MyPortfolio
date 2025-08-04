@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --bg-color: #0d0d0f;
+    --secondary-color: #1a1625;
+    --title-color: #ffffff;
+    --text-color: #ffffff;
+    --accent-color: #6366f1;
+    --header-height: 80px;
+    --footer-height: 50px;
+}
+
+html {
+    scroll-padding-top: var(--header-height);
+    scroll-padding-bottom: var(--footer-height);
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-weight: 400;
+}
+
+main{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header, footer{
+    max-width: 100%;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header{
+    position: sticky;
+    top:0;
+
+    justify-content: space-between;
+    height: 60px;
+}
+
+header h1{
+    margin: 0;
+    padding: 10px;
+    color: var(--title-color);
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 25px;
+}
+
+a {
+    color: var(--title-color);
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+main span.divider{
+    display: block;
+    height: 3px;
+    max-width: 100%;
+    background: linear-gradient(90deg, transparent, var(--accent-color), transparent)
+}
+
+footer{
+    justify-content: center;
+    height: 30px;
+}

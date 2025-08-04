@@ -1,0 +1,35 @@
+section{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-items: space-evenly;
+}
+
+section div.content{
+    display: flex;
+    flex-direction: column;
+    
+ 
+    text-align: center;
+
+    margin: 10%;
+}
+
+section img.icon{
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    
+    margin: 10%;
+}
+
+section p.content{
+    font-size: 20px;
+    max-width: 800px;
+    text-align: center;
+}
