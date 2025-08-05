@@ -27,3 +27,7 @@ TO-FIX:
 
 - Sticky header
 - Navigation/Scroll ¿memory?
+
+DOUBTS:
+
+- 'Style' atribute in cards
