@@ -1,33 +1,23 @@
 section{
     width: 100%;
     height: auto;
-    min-height: 500px;
-
-    display: flex;
-    flex-direction: row;
     
-    justify-content: center;
-    align-content: center;
-
-    align-items: center;
-    justify-items: space-evenly;
+    text-align: center;
+    align-content: top;
+    justify-items: center;
+    padding: 5rem;
 }
 
 section div.content{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
     text-align: center;
-
-    margin: 10%;
-}
-
-section img.icon{
-    width: 250px;
-    align-self: center;
-    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     
-    margin: 10%;
+    margin: 2rem;
 }
 
 

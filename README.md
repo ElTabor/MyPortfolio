@@ -17,16 +17,13 @@ Layout Design:
 
 Sections:
 
-- Who am I?
+- About
 - Goals
 - Skills
 - Projects
-- Certificates
+- Positions/Studies
 
 TO-FIX:
-
-- Sticky header
-- Navigation/Scroll ¿memory?
 
 DOUBTS:
 

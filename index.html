@@ -7,24 +7,24 @@
     <link rel="stylesheet" href="page-style.css" />
     <link rel="stylesheet" href="sections-style.css" />
     <link rel="stylesheet" href="projects-style.css" />
+    <link rel="stylesheet" href="skills-style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#about">About</a>
-        <a href="#goals">Goals</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#certificates">Certificates</a>
-        <a href="#contact">Contact</a>
+        <a type="button" class="btn" href="#about">About</a>
+        <a type="button" class="btn" href="#goals">Goals</a>
+        <a type="button" class="btn" href="#skills">Skills</a>
+        <a type="button" class="btn" href="#projects">Projects</a>
+        <a type="button" class="btn" href="#certificates">Certificates</a>
+        <a type="button" class="btn" href="#contact">Contact</a>
       </nav>
       <h1>MY PORTFOLIO</h1>
     </header>
     <main>
       <section id="about">
-        <img class="icon" src="./Images/about.png" alt="placeholder-image" />
+        <h2 class="title">ABOUT</h2>
         <div class="content">
-          <h2 class="title">ABOUT</h2>
           <p class="text">
             I'm a Game Developer with a strong focus on gameplay programming and
             prototyping. I specialize in Unity and C#, and enjoy creating
@@ -36,8 +36,8 @@
       </section>
       <span class="divider"></span>
       <section id="goals">
+        <h2 class="title">GOALS</h2>
         <div class="content">
-          <h2 class="title">GOALS</h2>
           <p class="text">
             My goal is to continuously improve as a developer, expanding both my
             technical skills and creative vision. I aspire to one day direct my
@@ -45,16 +45,23 @@
             on players, just as story-rich games have shaped and inspired me.
           </p>
         </div>
-        <img class="icon" src="./Images/goals.png" alt="placeholder-image" />
       </section>
       <span class="divider"></span>
       <section id="skills">
         <h2 class="title">SKILLS</h2>
+        <div class="content" id="skills-content">
+          <img src="./Images/Logos/logo-css.png" alt="CSS Logo" />
+          <img src="./Images/Logos/logo-html.png" alt="HTML Logo" />
+          <img src="./Images/Logos/logo-csharp.png" alt="C# Logo" />
+          <img src="./Images/Logos/logo-unity.png" alt="Unity Logo" />
+          <img src="./Images/Logos/logo-github.png" alt="Github Logo" />
+          <img src="./Images/Logos/logo-gitbash.png" alt="Git bash Logo" />
+        </div>
       </section>
       <span class="divider"></span>
       <section id="projects">
+        <h2>PROJECTS</h2>
         <div class="content">
-          <h2>PROJECTS</h2>
           <div id="cards-conteiner">
             <div class="card" style="width: 18rem">
               <img
@@ -72,11 +79,13 @@
                 </p>
               </div>
               <a
+                type="button"
+                class="btn"
                 href="https://astroriftgames.itch.io/project-corvus"
-                class="btn-primary"
                 target="_blank"
-                >PLAY NOW</a
               >
+                PLAY NOW
+              </a>
             </div>
             <div class="card" style="width: 18rem">
               <img
@@ -97,8 +106,9 @@
                 href="https://astroriftgames.itch.io/muecas"
                 class="btn-primary"
                 target="_blank"
-                >PLAY NOW</a
               >
+                PLAY NOW
+              </a>
             </div>
             <div class="card" style="width: 18rem">
               <img
@@ -119,19 +129,22 @@
                 href="https://danidieguez.itch.io/evolster"
                 class="btn-primary"
                 target="_blank"
-                >PLAY NOW</a
               >
+                PLAY NOW
+              </a>
             </div>
           </div>
         </div>
       </section>
       <span class="divider"></span>
       <section id="certificates">
-        <h2 class="title">CERTIFICATS</h2>
+        <h2 class="title">EXPERIENCE</h2>
+        <div class="content"></div>
       </section>
       <span class="divider"></span>
       <section id="contact">
         <h2 class="title">CONTACT</h2>
+        <div class="content"></div>
       </section>
     </main>
     <footer>
