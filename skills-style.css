@@ -1,0 +1,21 @@
+section#skills {
+    flex-direction: column;
+}
+section#skills div.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+
+    gap: 2rem;
+
+    justify-content: center;
+    margin: 5rem;
+}
+
+section#skills div.content img{
+    width: auto;
+    height: 100px;
+    align-self: center;
+    justify-self: center;
+}
