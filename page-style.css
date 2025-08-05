@@ -23,7 +23,7 @@ html {
 
 body{
     width: 100vw;
-    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
     font-weight: 400;
     color: var(--text-color);
 }

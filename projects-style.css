@@ -40,7 +40,8 @@ div.card-body p.card-text{
 }
 
 div.card a{
-    border-radius: 5px;
+    border-radius: 25px;
+    border: 1px solid var(--accent-color);
     font-size: 1.5em;
     margin-top: .25rem;
 }
