@@ -33,7 +33,6 @@ main{
 header, footer{
     background-color: var(--secondary-color);
     display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0 1rem 0 1rem;
     z-index: 1000;
@@ -45,19 +44,20 @@ header{
 
     justify-content: space-between;
     height: var(--header-height);
-    flex-wrap: wrap; /* Allow header content to wrap */
+    flex-wrap: wrap;
 }
 
 header h1{
     color: var(--title-color);
+    text-align: center;;
 }
 
 header nav{
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
-    flex-wrap: wrap; /* Allow navigation items to wrap */
-    justify-content: center; /* Center navigation items */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 a {
@@ -79,11 +79,9 @@ main span.divider{
 
 footer{
     display: flex;
-    flex-direction: row;
     padding: 0 2rem 0 2rem;
     justify-content: space-around;
     height: var(--footer-height);
-    gap: 1rem;
 }
 
 footer div#contact-container{
