@@ -1,0 +1,18 @@
+div.experience-item {
+    display: flex;
+    flex-direction: column;
+
+    align-items: top;
+    align-content: top;
+
+    height: auto;
+
+    gap: 0.5rem;
+}
+
+img.experience-img {
+    height: auto;
+
+    justify-self: center;
+    align-self: center;
+}

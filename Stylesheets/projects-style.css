@@ -1,6 +1,5 @@
-section div#cards-conteiner{
+section#projects div.content{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     gap: 2rem;
 }
@@ -22,6 +21,7 @@ div.card:hover{
 
 div.card-body{
     height: 100%;
+    text-align: center;
 }
 
 div.card img.card-img-top{
@@ -44,4 +44,22 @@ div.card a{
     border: 1px solid var(--accent-color);
     font-size: 1.5em;
     margin-top: .25rem;
+}
+
+div.badge-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+div.badge-container span.badge{
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.9em;
 }

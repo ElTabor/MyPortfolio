@@ -1,0 +1,24 @@
+section{
+    align-content: top;
+    justify-items: center;
+    padding: 4rem;
+}
+
+section div.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin: 2rem;
+}
+
+
+section p.text{
+    font-size: 20px;
+    max-width: 65vw;
+}
