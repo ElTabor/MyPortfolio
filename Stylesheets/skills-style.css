@@ -10,8 +10,6 @@ section#skills div.content{
 }
 
 section#skills div.content img{
-    width: auto;
-    height: 100px;
     align-self: center;
     justify-self: center;
 }

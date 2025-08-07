@@ -3,8 +3,16 @@
         display: block;
         text-align: center;
         align-items: center;
+        align-content: center;
+        justify-content: center;
         padding: 1rem;
         gap: 1rem;
+    }
+
+    header h1 {
+        position: fixed;
+        width: 30%;
+        left: 35%;
     }
 
     header nav {
@@ -13,9 +21,6 @@
 
     footer {
         flex-direction: column;
-        height: auto;
-        padding: 1rem;
-        gap: 1rem;
     }
 
     h1 { font-size: 1.5em; }
@@ -25,6 +30,11 @@
     h5 { font-size: .75em; }
 
     img.experience-img{
+        width: 100px;
+        height: auto;
+    }
+
+    img.img-skill{
         width: 100px;
         height: auto;
     }
@@ -39,6 +49,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { 
+    
     header h1 {
         font-size: 2.2em; 
     }
@@ -47,14 +58,23 @@
         font-size: 22px; 
     }
 
+    footer {
+        flex-direction: row;
+    }
+
     h1 { font-size: 2em; }
     h2 { font-size: 1.75em; }
     h3 { font-size: 1.5em; }
     h4 { font-size: 1.25em; }
     h5 { font-size: 1.1em; }
+
+    img.img-skill{
+        width: 100px;
+        height: auto;
+    }
     
     img.experience-img{
-        width: 200px;
+        width: 150px;
         height: auto;
     }
 
@@ -77,14 +97,23 @@
         font-size: 24px; 
     }
 
+    footer {
+        flex-direction: row;
+    }
+
     h1 { font-size: 2.5em; }
     h2 { font-size: 2em; }
     h3 { font-size: 1.75em; }
     h4 { font-size: 1.5em; }
     h5 { font-size: 1.25em; }
+
+    img.img-skill{
+        width: 150px;
+        height: auto;
+    }
     
     img.experience-img{
-        width: 300px;
+        width: 200px;
         height: auto;
     }
     
