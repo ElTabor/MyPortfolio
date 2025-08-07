@@ -21,10 +21,11 @@ Sections:
 - Goals
 - Skills
 - Projects
-- Positions/Studies
+- Experience
 
-TO-FIX:
+TO-DO:
 
-DOUBTS:
-
-- 'Style' atribute in cards
+- Responisive
+- Better nav
+- Better aesthetics
+- Add some animations

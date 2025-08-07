@@ -1,6 +1,5 @@
-section div#cards-conteiner{
+section#projects div.content{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     gap: 2rem;
 }
@@ -22,6 +21,7 @@ div.card:hover{
 
 div.card-body{
     height: 100%;
+    text-align: center;
 }
 
 div.card img.card-img-top{

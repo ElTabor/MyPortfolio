@@ -1,0 +1,99 @@
+@media (max-width: 767px)  {
+    header {
+        display: block;
+        text-align: center;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    header nav {
+        visibility: hidden;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    h1 { font-size: 1.5em; }
+    h2 { font-size: 1.25em; }
+    h3 { font-size: 1.1em; }
+    h4 { font-size: .9em; }
+    h5 { font-size: .75em; }
+
+    img.experience-img{
+        width: 100px;
+        height: auto;
+    }
+
+    section#projects div.content{
+        flex-direction: column;
+    }
+
+    div.card{
+        width: 75%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    header h1 {
+        font-size: 2.2em; 
+    }
+
+    header nav {
+        font-size: 22px; 
+    }
+
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.75em; }
+    h3 { font-size: 1.5em; }
+    h4 { font-size: 1.25em; }
+    h5 { font-size: 1.1em; }
+    
+    img.experience-img{
+        width: 200px;
+        height: auto;
+    }
+
+    section#projects div.content{
+        flex-direction: row;
+    }
+
+    div.card{
+        width: 18rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    
+    header h1 {
+        font-size: 2.5em; 
+    }
+
+    header nav {
+        font-size: 24px; 
+    }
+
+    h1 { font-size: 2.5em; }
+    h2 { font-size: 2em; }
+    h3 { font-size: 1.75em; }
+    h4 { font-size: 1.5em; }
+    h5 { font-size: 1.25em; }
+    
+    img.experience-img{
+        width: 300px;
+        height: auto;
+    }
+    
+    section#projects div.content{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    div.card{
+        width: 18rem;
+    }
+}
