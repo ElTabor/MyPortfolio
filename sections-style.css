@@ -12,9 +12,7 @@ section div.content{
     display: flex;
     flex-direction: row;
     
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     
     margin: 2rem;
@@ -28,10 +26,4 @@ section p.text{
 
     display: flex;
     flex-direction: row;
-}
-
-section div#content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
