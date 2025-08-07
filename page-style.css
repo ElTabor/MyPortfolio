@@ -11,7 +11,7 @@
     --text-color: #ffffff;
     --accent-color: #6366f1;
     --header-height: 60px;
-    --footer-height: 50px;
+    --footer-height: 100px;
     scroll-padding-top: var(--header-height);
     scroll-padding-bottom: var(--footer-height);
     scroll-behavior: smooth;
@@ -74,6 +74,16 @@ main span.divider{
 }
 
 footer{
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem 0 2rem;
+    justify-content: space-between;
     height: var(--footer-height);
+}
+
+footer div#contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    gap: 0.25rem;
 }
