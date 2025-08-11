@@ -2,6 +2,8 @@
 
 This repository will be used during the creation of my portfolio-page.
 
+**DISCLAIMER**: AI used for layout design and color palette (Cluade); texts, info and typos (ChatGPT); minor problems solving (Copilot).
+
 Objectives:
 
 - Must be a **one page** website
@@ -10,11 +12,6 @@ Objectives:
 - Must have Web layout **tags**.
 - Must be **responsive**.
 
-Layout Design:
-
-- Hidden Navigation
-- Asymetrical
-
 Sections:
 
 - About
@@ -22,10 +19,3 @@ Sections:
 - Skills
 - Projects
 - Experience
-
-TO-DO:
-
-- Responisive
-- Better nav
-- Better aesthetics
-- Add some animations
